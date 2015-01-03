@@ -14,14 +14,14 @@ exploding my Comcast router because it started needing to be reset every few hou
 the chromebook came on to the network. It's pretty snappy for quick and easy things,
 though I haven't timed it for compiling a kernel.
 
-(Crouton)[www.github.com/dnschneid/crouton] is how I am running a natural feeling
+[Crouton](www.github.com/dnschneid/crouton) is how I am running a natural feeling
 linux environment while on the chromebook. That way I can `apt-get` whatever I need
 and compile anything else that I can't get normally. I was a little sad to see no
 built in C compiler on the chromebook itself, but then I've never really been happy
 with the way google treats the underlying Linux system for their products (e.g. android)
 
 So far to simulate some work (since I'm out of a job and don't have a pet project
-right now) I have been writing programs to submit to (codeeval)[www.codeeval.com/profile/minshallj].
+right now) I have been writing programs to submit to [codeeval](www.codeeval.com/profile/minshallj).
 Also I want to try out serving this blog in the chroot, and accessing it from the browser,
 though I think there may be some issues with trying that out. Mainly, how do I access port
 4000 of my `chroot`? So far development has been fine, using the vim from inside the chroot,
